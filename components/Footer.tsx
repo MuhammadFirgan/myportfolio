@@ -1,9 +1,25 @@
-import React from 'react'
+import Link from "next/link";
+import { BiLogoGithub, 
+  BiLogoInstagram,  
+  BiLogoUpwork } from "react-icons/bi";
 
 export default function Footer() {
   return (
-    <footer>
-        footer
+    <footer className="bg-[#bfb59a] text-stone-800 p-16">
+        <h1 className="text-3xl font-semibold ">Get In Touch</h1>
+        <span className="my-6 block">Contact me for bussiness in muhammadfirgan077@gmail.com</span>
+        <div className="flex text-4xl gap-10  cursor-pointer text-stone-800">
+        <Link href="https://github.com/MuhammadFirgan">
+          <BiLogoGithub className="hover:text-teal-500"/>
+        </Link>
+        <Link href="">
+          <BiLogoInstagram className="hover:text-teal-500" />
+        </Link>
+        <Link href="https://www.upwork.com/freelancers/~01252e7a5a4cfd8472?mp_source=share">
+
+          <BiLogoUpwork className="hover:text-teal-500" />
+        </Link>
+        </div>
     </footer>  
   )
 }
