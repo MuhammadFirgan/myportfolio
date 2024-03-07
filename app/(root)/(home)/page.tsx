@@ -43,7 +43,7 @@ export default function page() {
             </div>
             <div className='relative'>
               <div className='w-52 h-52 bg-gradient-to-r from-teal-500 to-emerald-500 absolute -left-10 -top-10'></div>
-              <Image src='/img/imgwithbg.JPG' fill alt='my-image' className=' drop-shadow-2xl realtive' />
+              <Image src='/img/imgwithbg.JPG' fill alt='my-image' className=' drop-shadow-2xl' />
               <div className='w-52 h-full bg-gradient-to-r from-teal-500 to-emerald-500 absolute -z-50 -right-10 -bottom-10'></div>
             </div>
             <div className='max-w-sm'>
