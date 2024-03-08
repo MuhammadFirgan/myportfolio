@@ -10,6 +10,10 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Muhammad Firgan | Frontend Developer",
   description: "Frontend developer from Antarctic.px, focusing in Next js, React Js, Typescript, Tailwind CSS",
+  other: {
+    'og:type': 'website',
+    'og:url': 'muhammadfirgan'
+  }
 };
 
 export default function RootLayout({
@@ -19,6 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="icon" href="/img/favicon.ico" sizes="any" />
       <body className={poppins.className}>{children}</body>
     </html>
   );

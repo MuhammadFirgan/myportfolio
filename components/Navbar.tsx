@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 
@@ -15,7 +16,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 text-stone-800">
-              Logo
+              <Image src='/img/logo.png' width={90} height={90} alt='logo'/>
             </div>
           </div>
           <div className="hidden md:flex">
