@@ -5,10 +5,10 @@ import { BiLogoGithub,
 
 export default function Footer() {
   return (
-    <footer className="bg-[#bfb59a] text-stone-800 p-16">
+    <footer className="bg-zinc-800 text-zinc-100 p-16">
         <h1 className="text-3xl font-semibold ">Get In Touch</h1>
         <span className="my-6 block">Contact me for bussiness in muhammadfirgan077@gmail.com</span>
-        <div className="flex text-4xl gap-10  cursor-pointer text-stone-800">
+        <div className="flex text-4xl gap-10  cursor-pointer text-zinc-100">
         <Link href="https://github.com/MuhammadFirgan">
           <BiLogoGithub className="hover:text-teal-500"/>
         </Link>

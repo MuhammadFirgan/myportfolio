@@ -33,7 +33,7 @@ export default function page() {
 
   
   return (
-    <main className='p-10 !text-stone-800'>
+    <main className='p-10 !text-white'>
         <section className='flex justify-center gap-16 flex-col lg:flex-row sm:h-screen sm:items-center'>
             <div className='max-w-sm'>
                 <h5 className='text-lg font-light'>Hi I'm</h5>
@@ -43,7 +43,7 @@ export default function page() {
             </div>
             <div className='relative'>
               <div className='w-52 h-52 bg-gradient-to-r from-teal-500 to-emerald-500 absolute -left-10 -top-10'></div>
-              <Image src='/img/imgwithbg.JPG' width={370} height={370} alt='my-image' className='drop-shadow-2xl relative' />
+              <Image src='/img/imgwithbg.JPG' width={370} height={370} alt='my-image' className='drop-shadow-2xl relative' priority quality={100} />
               <div className='w-52 h-full bg-gradient-to-r from-teal-500 to-emerald-500 absolute -z-50 -right-10 -bottom-10'></div>
             </div>
             <div className='max-w-sm'>
@@ -106,9 +106,9 @@ export default function page() {
         <section className="mb-28">
           <div>
             <h1 className="text-5xl font-semibold">My <span className="bg-clip-text text-transparent bg-gradient-to-r from-teal-500 to-emerald-500 drop-shadow-md">Projects</span></h1>
-            <span className="my-5 text-gray-700 block">These are some of the projects I have made</span>
+            <span className="my-5 text-gray-200 block">These are some of the projects I have made</span>
           </div>
-          <div className="px-10">
+          <div className="px-10 my-10">
             <Carousel>
               <CarouselContent>
                 {/* <CarouselItem className="md:basis-1/2 lg:basis-1/3">
@@ -136,7 +136,9 @@ export default function page() {
                       </figcaption>
                   </figure>
                 </CarouselItem> */}
-                <Card />
+                <Card img="/img/project1.png" title="Company Profile" link="" />
+                <Card img="/img/project2.png" title="VR Landing Page" link="https://vr-landing-page-ten.vercel.app/" />
+                
                 
                 
                 

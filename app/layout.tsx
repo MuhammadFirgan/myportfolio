@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <link rel="icon" href="/img/favicon.ico" sizes="any" />
-      <body className={poppins.className}>{children}</body>
+      <body className={`bg-zinc-900 ${poppins.className}`}>{children}</body>
     </html>
   );
 }
