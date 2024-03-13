@@ -53,7 +53,7 @@ export default function page() {
                   <Link href="https://github.com/MuhammadFirgan">
                     <BiLogoGithub className="hover:text-teal-500"/>
                   </Link>
-                  <Link href="">
+                  <Link href="https://www.instagram.com/fir.code?igsh=MTM0ZTZxZXBzamN3dg==">
                     <BiLogoInstagram className="hover:text-teal-500" />
                   </Link>
                   <Link href="https://www.upwork.com/freelancers/~01252e7a5a4cfd8472?mp_source=share">
