@@ -15,7 +15,7 @@ export default function Home() {
     <section className='flex justify-center gap-16 flex-col lg:flex-row sm:h-screen sm:items-center'>
             <motion.div
               initial={{ x: -40, opacity: 0 }}
-              whileInView={{ x: 10, opacity: 1 }}
+              whileInView={{ x: 5, opacity: 1 }}
               transition={{ duration: 0.5 }}
               className='max-w-sm'>
                 <h5 className='text-lg font-light'>Hi I'm</h5>
