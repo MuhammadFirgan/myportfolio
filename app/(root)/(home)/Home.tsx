@@ -14,8 +14,9 @@ export default function Home() {
   return (
     <section className='flex justify-center gap-16 flex-col lg:flex-row sm:h-screen sm:items-center'>
             <motion.div
-              initial={false}
-              animate={{ y: 100 }}
+              initial={{ x: -40, opacity: 0 }}
+              whileInView={{ x: 10, opacity: 1 }}
+              transition={{ duration: 0.5 }}
               className='max-w-sm'>
                 <h5 className='text-lg font-light'>Hi I'm</h5>
                 <h1 className='text-5xl font-black '>Muhammad <br /> Firgan</h1>
@@ -27,7 +28,11 @@ export default function Home() {
               <Image src='/img/imgwithbg.JPG' width={370} height={370} alt='my-image' className='drop-shadow-2xl relative' priority quality={100} />
               <div className='w-52 h-full bg-gradient-to-r from-teal-500 to-emerald-500 absolute -z-50 -right-10 -bottom-10'></div>
             </div>
-            <div className='max-w-sm'>
+            <motion.div
+                initial={{ x: 40, opacity: 0 }}
+                whileInView={{ x: 10, opacity: 1 }}
+                transition={{ duration: 0.5 }}
+                className='max-w-sm'>
                 <h1 className='font-semibold'>Based In Indonesia <br />I'm Frontend Developer</h1>
                 <p className='font-light my-4'>As a front-end developer with experience in React.js, Next, and founder of Antarctic.px. Additionally, have backend knowledge using Laravel and mobile development with React Native.</p>
                 <div className="flex text-4xl gap-10 text-gray-500 cursor-pointer">
@@ -42,7 +47,7 @@ export default function Home() {
                     <BiLogoUpwork className="hover:text-teal-500" />
                   </Link>
                 </div>
-            </div>
+            </motion.div>
         </section>
   )
 }

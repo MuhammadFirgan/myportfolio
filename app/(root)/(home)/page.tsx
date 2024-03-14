@@ -48,22 +48,22 @@ export default function page() {
             <div className="flex items-center flex-wrap justify-center gap-5 max-w-3xl">
               <div className="max-w-xs min-h-56 flex flex-col gap-3 justify-center px-7 border-2 border-teal-500 rounded-xl">
                 <BiSolidMobile className='text-3xl text-teal-500' />
-                <h3 className="text-xl font-semibold">Responsiveness Development</h3>
+                <h1 className="text-xl font-semibold">Responsiveness Development</h1>
                 <span className="text-sm">create websites that can run on various devices and screen sizes</span>
               </div>
               <div className="max-w-xs min-h-56 flex flex-col gap-3 justify-center px-7 bg-gradient-to-r from-teal-500 to-emerald-500 text-white rounded-xl">
                 <BiSolidGroup className='text-3xl text-white' />
-                <h3 className="text-xl font-semibold">Collaborative</h3>
+                <h1 className="text-xl font-semibold">Collaborative</h1>
                 <span className="text-sm">Collaborate with teams to develop high-performance applications</span>
               </div>
               <div className="max-w-xs min-h-56 flex flex-col gap-3 justify-center px-7 bg-gradient-to-r from-teal-500 to-emerald-500 text-white rounded-xl">
                 <BiSolidStar className='text-3xl text-white' />
-                <h3 className="text-xl font-semibold">Focusing in popular framework</h3>
+                <h1 className="text-xl font-semibold">Focusing in popular framework</h1>
                 <span className="text-sm">I have an understanding of popular frameworks such as React and NextJS</span>
               </div>
               <div className="max-w-xs min-h-56 flex flex-col gap-3 justify-center border-2 border-teal-500 px-7 rounded-xl">
                 <BiGitBranch className='text-3xl text-teal-500'/>
-                <h3 className="text-xl font-semibold">Multitalent</h3>
+                <h1 className="text-xl font-semibold">Multitalent</h1>
                 <span className="text-sm">I am not only good in frontend language but also have knowledge in backend using Laravel as well as mobile app with React Native.</span>
               </div>
             </div>
