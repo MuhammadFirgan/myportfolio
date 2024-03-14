@@ -105,14 +105,11 @@ export default function page() {
                   </figure>
                 </CarouselItem> */}
                 <Card img="/img/project1.png" title="Company Profile" link="" />
-                <Card img="/img/project2.png" title="VR Landing Page" link="https://vr-landing-page-ten.vercel.app/" />
-                
-                
-                
+                <Card img="/img/project2.png" title="VR Landing Page" link="https://vr-landing-page-ten.vercel.app/" />      
                 
               </CarouselContent>
-              <CarouselPrevious />
-              <CarouselNext />
+              <CarouselPrevious className="text-black hover:bg-teal-500 hover:text-white"/>
+              <CarouselNext className="text-black hover:bg-teal-500 hover:text-white" />
             </Carousel>
           </div>
 
