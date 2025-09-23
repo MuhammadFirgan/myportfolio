@@ -42,7 +42,7 @@ export default function page() {
           </div>
           <div className="flex flex-col justify-center items-center my-20 gap-7 lg:flex-row">
             <div className="max-w-md">
-              <h1 className='font-semibold text-[65px] drop-shadow-md'>Why Hire <span className="bg-clip-text text-transparent bg-gradient-to-r from-teal-500 to-emerald-500">Me</span> for Your Next <span className="bg-clip-text text-transparent bg-gradient-to-r from-teal-500 to-emerald-500">Project</span></h1>
+              <h1 className='font-semibold text-[65px] drop-shadow-md'>Why Hire <span className="bg-clip-text text-transparent bg-primary">Me</span> for Your Next <span className="bg-clip-text text-transparent bg-primary">Project</span></h1>
             </div>
             
             <div className="flex items-center flex-wrap justify-center gap-5 max-w-3xl">
@@ -51,12 +51,12 @@ export default function page() {
                 <h1 className="text-xl font-semibold">Responsiveness Development</h1>
                 <span className="text-sm">create websites that can run on various devices and screen sizes</span>
               </div>
-              <div className="max-w-xs min-h-56 flex flex-col gap-3 justify-center px-7 bg-gradient-to-r from-teal-500 to-emerald-500 text-white rounded-xl">
+              <div className="max-w-xs min-h-56 flex flex-col gap-3 justify-center px-7 bg-primary text-white rounded-xl">
                 <BiSolidGroup className='text-3xl text-white' />
                 <h1 className="text-xl font-semibold">Collaborative</h1>
                 <span className="text-sm">Collaborate with teams to develop high-performance applications</span>
               </div>
-              <div className="max-w-xs min-h-56 flex flex-col gap-3 justify-center px-7 bg-gradient-to-r from-teal-500 to-emerald-500 text-white rounded-xl">
+              <div className="max-w-xs min-h-56 flex flex-col gap-3 justify-center px-7 bg-primary text-white rounded-xl">
                 <BiSolidStar className='text-3xl text-white' />
                 <h1 className="text-xl font-semibold">Focusing in popular framework</h1>
                 <span className="text-sm">I have an understanding of popular frameworks such as React and NextJS</span>
@@ -73,7 +73,7 @@ export default function page() {
         </section>
         <section className="mb-28">
           <div>
-            <h1 className="text-5xl font-semibold">My <span className="bg-clip-text text-transparent bg-gradient-to-r from-teal-500 to-emerald-500 drop-shadow-md">Projects</span></h1>
+            <h1 className="text-5xl font-semibold">My <span className="bg-clip-text text-transparent bg-primary drop-shadow-md">Projects</span></h1>
             <span className="my-5 text-gray-200 block">These are some of the projects I have made</span>
           </div>
           <div className="px-10 my-10">
@@ -87,7 +87,7 @@ export default function page() {
                           <div className="text-center my-4">
 
                             <Dialog>
-                              <DialogTrigger className="inline-flex items-center rounded-full border border-gray-200 px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-offset-2 dark:border-gray-800 dark:focus:ring-gray-300 cursor-pointer bg-gradient-to-r from-teal-500 to-emerald-500 hover:bg-gradient-to-r hover:from-teal-600 hover:to-emerald-600 text-white">Open</DialogTrigger>
+                              <DialogTrigger className="inline-flex items-center rounded-full border border-gray-200 px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-offset-2 dark:border-gray-800 dark:focus:ring-gray-300 cursor-pointer bg-primary hover:bg-gradient-to-r hover:from-teal-600 hover:to-emerald-600 text-white">Open</DialogTrigger>
                               <DialogContent>
                                 <DialogHeader>
                                   <DialogTitle>Are you absolutely sure?</DialogTitle>

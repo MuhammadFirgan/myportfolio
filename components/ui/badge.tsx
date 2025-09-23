@@ -15,7 +15,7 @@ const badgeVariants = cva(
         destructive:
           "border-transparent bg-red-500 text-gray-50 hover:bg-red-500/80 dark:bg-red-900 dark:text-gray-50 dark:hover:bg-red-900/80",
         outline: "border-teal-500 text-gray-950 dark:text-gray-50 hover:bg-teal-500 hover:text-white",
-        primary: "bg-gradient-to-r from-teal-500 to-emerald-500 hover:bg-gradient-to-r hover:from-teal-600 hover:to-emerald-600 text-white"
+        primary: "bg-primary hover:bg-gradient-to-r hover:from-teal-600 hover:to-emerald-600 text-white"
       },
     },
     defaultVariants: {

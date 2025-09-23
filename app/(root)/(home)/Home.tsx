@@ -21,12 +21,12 @@ export default function Home() {
                 <h5 className='text-lg font-light'>Hi I'm</h5>
                 <h1 className='text-5xl font-black '>Muhammad <br /> Firgan</h1>
                 <div className='border-2 my-7'></div>
-                <Link href="mailto:muhammadfirgan077@gmail.com" className=' px-10 py-3 text-lg text-white rounded-full shadow-lg bg-gradient-to-r from-teal-500 to-emerald-500 hover:bg-gradient-to-r hover:from-teal-600 hover:to-emerald-600'>Hire Me</Link>
+                <Link href="mailto:muhammadfirgan077@gmail.com" className=' px-10 py-3 text-lg text-white rounded-full shadow-lg bg-primary hover:bg-gradient-to-r hover:from-teal-600 hover:to-emerald-600'>Hire Me</Link>
             </motion.div>
             <div className='relative'>
-              <div className='w-52 h-52 bg-gradient-to-r from-teal-500 to-emerald-500 absolute -left-10 -top-10'></div>
+              <div className='w-52 h-52 bg-primary absolute -left-10 -top-10'></div>
               <Image src='/img/imgwithbg.JPG' width={370} height={370} alt='my-image' className='drop-shadow-2xl relative' priority quality={100} />
-              <div className='w-52 h-full bg-gradient-to-r from-teal-500 to-emerald-500 absolute -z-50 -right-10 -bottom-10'></div>
+              <div className='w-52 h-full bg-primary absolute -z-50 -right-10 -bottom-10'></div>
             </div>
             <motion.div
                 initial={{ x: 40, opacity: 0 }}
