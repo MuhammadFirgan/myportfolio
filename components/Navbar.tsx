@@ -13,12 +13,8 @@ export default function Navbar() {
   return (
     <nav className="bg-zinc-800 mx-10 my-5 rounded-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <div className="flex items-center">
-            <div className="flex-shrink-0 text-zinc-100">
-              <Image src='/img/logo.png' width={90} height={90} alt='logo'/>
-            </div>
-          </div>
+        <div className="flex items-center justify-end h-16">
+          
           <div className="hidden md:flex">
             <div className="ml-10 flex space-x-4">
               <Link href="/" className="text-zinc-100 hover:text-teal-500 px-3 py-2 rounded-md text-sm font-medium">Home</Link>
